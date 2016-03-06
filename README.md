@@ -31,7 +31,7 @@ Suba as máquinas criadas utilizando o comando:
 *  **db**: máquina com servidor mysql para base de dados da aplicação;
 *  **web**: máquina com tomcat7 para deploy da aplicação;
 *  **monitor**: máquina com nagios3 para monitoramento da aplicação;
-*  **build**: máquina com gitlab, sonarqube, jenkins e nexus para integração contínua da aplicação;
+*  **build**: máquina com gitlab, sonarqube, jenkins e artifactory para integração contínua da aplicação;
 
 
 ***
