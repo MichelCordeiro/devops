@@ -15,6 +15,6 @@ Vagrant.configure(2) do |config|
   end
 
   config.vm.define :build do |build_config|
-  	build_config.vm.network :private_network, :ip => "192.168.33.18"
+  	build_config.vm.network :private_network, :ip => "192.168.33.20"
   end
 end
