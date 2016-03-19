@@ -12,7 +12,7 @@ Vagrant.configure(2) do |config|
   end
 
   config.vm.define :web do |web_config|
-	web_config.vm.network :private_network, :ip => "192.168.32.12"
+	web_config.vm.network :private_network, :ip => "192.168.32.13"
   end
 
   config.vm.define :monitor do |monitor_config|
